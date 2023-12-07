@@ -38,7 +38,7 @@ func main() {
 
 	paginaToScrape := "https://www.extrabom.com.br/c/bebidas/28/?limit=60" // A primeira URL a ser raspada
 
-	paginasDescobertas := []string{paginaToScrape} // Inicializando o slice de páginas discobertas com a primeira página a ser raspada
+	paginasDescobertas := []string{paginaToScrape} // Inicializando o slice de páginas descobertas com a primeira página a ser raspada
 
 	i := 1
 	limit := 5
